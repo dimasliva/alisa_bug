@@ -194,7 +194,6 @@ frameCells.forEach((cell) => {
       const computedStyle = getComputedStyle(currentDraggable);
       const backgroundImage = computedStyle.backgroundImage;
 
-      console.log("cell.style.backgroundImage", cell.style.backgroundImage);
       if (cell.style.backgroundImage.length === 0) {
         cell.style.backgroundImage = backgroundImage;
         cell.style.backgroundSize = "cover";
